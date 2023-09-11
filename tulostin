@@ -1,22 +1,25 @@
 import java.util.*;
 public class Main {
-System.out.println("Hei olen tulostin ohjelma");
-        String tekija = "Ella";
-        System.out.println("Ohjelman tekijä: " + tekija);
-        double luku1 = 2.5;
-        double luku2 = 5.0;
-        System.out.println("Luku1-muuttujan arvo on " + luku1);
-        System.out.println("Luku2-muuttujan arvo on " + luku2);
+    System.out.println("Hei olen tulostin ohjelma");
+    String tekija = "Ella";
+    System.out.println("Ohjelman tekijä: " + tekija);
 
-        double tulo = luku1 * luku2;
-        System.out.println(luku1 + " * " + luku2 + " = " + tulo);
+    double luku1 = 8.5;
+    double luku2 = 5.0;
+    double jako = luku1 / luku2;
+    double summa = luku1 + luku2;
+    double erotus = luku1 - luku2;
+    double tulo = luku1 * luku2;
 
-        double erotus = luku1 - luku2;
-        System.out.println(luku1 + " * " + luku2 + " = " + erotus);
+    System.out.println("Luku1-muuttujan arvo on " + luku1);
+    System.out.println("Luku2-muuttujan arvo on " + luku2);
 
-        double summa = luku1 + luku2;
-        System.out.println(luku1 + " * " + luku2 + " = " + summa);
 
-        double jako = luku1 / luku2;
-        System.out.println(luku1 + " * " + luku2 + " = " + jako);
+    System.out.println(luku1 + " * " + luku2 + " = " + tulo);
+
+    System.out.println(luku1 + " * " + luku2 + " = " + erotus);
+
+    System.out.println(luku1 + " * " + luku2 + " = " + summa);
+
+    System.out.println(luku1 + " * " + luku2 + " = " + jako);
 }
